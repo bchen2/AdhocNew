@@ -1,0 +1,86 @@
+Error loading information from data. Continuing with model loading.
+com.thoughtworks.xstream.converters.ConversionException: -1 : -1
+---- Debugging information ----
+message             : -1
+cause-exception     : java.lang.ArrayIndexOutOfBoundsException
+cause-message       : -1
+class               : repast.simphony.data2.engine.FileSinkDescriptor
+required-type       : repast.simphony.data2.engine.FileSinkDescriptor
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /repast.simphony.data2.engine.FileSinkDescriptor/name
+line number         : 2
+version             : null
+-------------------------------
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:79)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1058)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1042)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:913)
+	at repast.simphony.scenario.ObjectActionLoader.performLoad(ObjectActionLoader.java:33)
+	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:35)
+	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
+	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
+	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:192)
+	at repast.simphony.batch.OneRunBatchRunner.init(OneRunBatchRunner.java:53)
+	at repast.simphony.batch.OneRunBatchRunner.<init>(OneRunBatchRunner.java:47)
+	at repast.simphony.batch.InstanceRunner.configure(InstanceRunner.java:99)
+	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:130)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet(OrderRetainingMap.java:77)
+	at java.util.HashMap.putMapEntries(HashMap.java:511)
+	at java.util.HashMap.putAll(HashMap.java:784)
+	at com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>(OrderRetainingMap.java:36)
+	at com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap(FieldDictionary.java:135)
+	at com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldOrNull(FieldDictionary.java:113)
+	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(PureJavaReflectionProvider.java:160)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:292)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:234)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	... 17 more
+Error loading information from data. Continuing with model loading.
+com.thoughtworks.xstream.converters.ConversionException: -1 : -1
+---- Debugging information ----
+message             : -1
+cause-exception     : java.lang.ArrayIndexOutOfBoundsException
+cause-message       : -1
+class               : repast.simphony.data2.engine.FileSinkDescriptor
+required-type       : repast.simphony.data2.engine.FileSinkDescriptor
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /repast.simphony.data2.engine.FileSinkDescriptor/name
+line number         : 2
+version             : null
+-------------------------------
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:79)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1058)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1042)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:913)
+	at repast.simphony.scenario.ObjectActionLoader.performLoad(ObjectActionLoader.java:33)
+	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:35)
+	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
+	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
+	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:192)
+	at repast.simphony.batch.OneRunBatchRunner.init(OneRunBatchRunner.java:53)
+	at repast.simphony.batch.OneRunBatchRunner.<init>(OneRunBatchRunner.java:47)
+	at repast.simphony.batch.InstanceRunner.configure(InstanceRunner.java:99)
+	at repast.simphony.batch.InstanceRunner.main(InstanceRunner.java:130)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.thoughtworks.xstream.core.util.OrderRetainingMap.entrySet(OrderRetainingMap.java:77)
+	at java.util.HashMap.putMapEntries(HashMap.java:511)
+	at java.util.HashMap.putAll(HashMap.java:784)
+	at com.thoughtworks.xstream.core.util.OrderRetainingMap.<init>(OrderRetainingMap.java:36)
+	at com.thoughtworks.xstream.converters.reflection.FieldDictionary.buildMap(FieldDictionary.java:135)
+	at com.thoughtworks.xstream.converters.reflection.FieldDictionary.fieldOrNull(FieldDictionary.java:113)
+	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.fieldDefinedInClass(PureJavaReflectionProvider.java:160)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:292)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:234)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	... 17 more

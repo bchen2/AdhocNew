@@ -1,0 +1,616 @@
+INFO  [Thread-6] 2016-01-27 09:57:23,251 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:23,477 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:24,574 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:25,353 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:25,367 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:26,461 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:26,860 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:27,858 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:28,290 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:28,910 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:29,601 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:30,505 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:30,936 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:31,879 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:32,520 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:33,065 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:33,449 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:34,506 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:34,962 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:35,437 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:35,969 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:36,350 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:37,267 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:37,690 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:38,265 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:38,529 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:39,456 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:39,957 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:40,777 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:41,172 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [pool-2-thread-1] 2016-01-27 09:57:41,873 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  no
+INFO  [Thread-6] 2016-01-27 09:57:41,914 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:42,690 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:43,132 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:44,082 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:44,802 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:45,685 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:46,002 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:47,176 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:47,780 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:48,202 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:49,251 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:49,361 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:50,517 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:50,836 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:51,685 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:51,839 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:52,909 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:52,999 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:53,921 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:54,928 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:55,712 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:57:56,527 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:57,767 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:57:58,190 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:57:58,806 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:57:59,465 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:57:59,671 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:00,754 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:00,964 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:01,783 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:01,875 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:03,002 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:03,119 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:04,436 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:04,739 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:05,614 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:05,797 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:06,753 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:07,521 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:07,666 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:08,572 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:08,730 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:09,976 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:10,058 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:10,900 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:11,236 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:12,381 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:12,511 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:13,857 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:13,872 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:14,949 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:15,302 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:16,071 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:16,889 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:17,278 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:18,521 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:18,630 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:19,950 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:20,826 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:21,019 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:22,177 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:22,269 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:23,758 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:23,872 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:24,975 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:24,993 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:26,068 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:26,314 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:27,272 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:28,556 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:29,039 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:30,071 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:31,245 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:31,655 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:32,294 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:33,230 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:33,629 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:35,235 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:35,381 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:36,580 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:36,784 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:38,429 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:38,595 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:40,271 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:40,639 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [pool-2-thread-1] 2016-01-27 09:58:41,874 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  no
+INFO  [Thread-6] 2016-01-27 09:58:41,942 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:42,062 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:43,674 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:44,713 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:45,118 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:46,530 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:46,619 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:48,319 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:48,354 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:49,695 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:49,893 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:51,262 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:52,034 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:54,189 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:54,378 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:55,492 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:58:56,065 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:58:56,774 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:58:57,879 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:58:58,660 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:58:59,654 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:00,450 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:02,457 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:03,212 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:03,641 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:04,720 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:04,836 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:06,291 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:06,510 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:07,525 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:07,565 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:08,846 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:09,126 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:10,024 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:11,528 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:11,780 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:12,997 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:14,301 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:14,340 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:15,530 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:16,104 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:16,832 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:17,702 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:18,402 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:18,974 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:19,233 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:20,036 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:20,573 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:21,770 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:21,814 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:22,759 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:23,005 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:24,258 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:25,486 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:25,802 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:26,725 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:27,229 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:28,388 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:28,766 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:29,469 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:30,216 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:31,192 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:31,487 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:32,646 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:33,098 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:34,126 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:34,193 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:35,258 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:36,086 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:36,094 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:37,607 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:37,842 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:39,020 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:40,413 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:40,559 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:41,576 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [pool-2-thread-1] 2016-01-27 09:59:41,875 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  no
+INFO  [Thread-6] 2016-01-27 09:59:42,052 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:43,458 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:43,677 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:44,745 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:45,148 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:46,130 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:46,747 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:47,184 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:48,753 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:48,919 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:50,338 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:51,431 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:51,508 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:52,570 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.05 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:53,120 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:53,808 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:54,933 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:55,350 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:56,148 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 09:59:56,331 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.05 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 09:59:57,477 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 09:59:58,067 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 09:59:59,477 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 09:59:59,666 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:00,743 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:01,236 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:01,989 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:02,970 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:03,215 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:04,059 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:04,676 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:05,404 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:05,823 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:06,365 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:07,196 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:08,149 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:08,525 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:09,775 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:10,493 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:11,692 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:11,984 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:13,489 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:14,561 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:14,640 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:16,298 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:16,767 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:17,823 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:18,962 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:19,373 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:20,345 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:21,363 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:22,769 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:23,568 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:24,490 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:25,681 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:26,056 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:27,239 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:27,368 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:29,261 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:29,869 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:31,326 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:32,286 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:32,701 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:33,972 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:34,059 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:35,138 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:35,506 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:36,425 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:37,015 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:37,524 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:38,517 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:39,439 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:40,772 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:40,961 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [pool-2-thread-1] 2016-01-27 10:00:41,879 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  no
+INFO  [Thread-6] 2016-01-27 10:00:42,330 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:43,008 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:44,035 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:45,451 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:46,117 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:47,069 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:47,980 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:48,764 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:49,648 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:50,051 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:51,084 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:51,719 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:52,275 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:53,253 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:53,940 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:55,102 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:00:55,323 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:56,530 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:00:57,223 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:00:57,425 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:00:58,442 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:00:58,872 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:00,081 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:02,122 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:02,618 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:03,413 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:04,299 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:05,219 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:06,106 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:06,478 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:07,612 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:07,742 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:08,796 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:09,110 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:10,491 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:11,089 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:12,612 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:13,285 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:13,970 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:15,028 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:15,201 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:16,636 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:16,745 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:18,307 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:18,368 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:19,553 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:19,905 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:21,266 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:22,003 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:22,834 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:23,325 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:24,326 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:24,553 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:25,859 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:27,088 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:27,288 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:28,382 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:28,585 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:29,761 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:30,069 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:31,526 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:31,646 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:32,985 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:33,327 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:34,847 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:34,952 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:36,205 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:37,452 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:37,587 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:38,497 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:38,933 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:40,171 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:40,484 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:41,447 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [pool-2-thread-1] 2016-01-27 10:01:41,880 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  no
+INFO  [Thread-6] 2016-01-27 10:01:42,507 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:42,865 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:44,138 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:44,537 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:45,825 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:45,858 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:47,182 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:47,443 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:48,488 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:49,139 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:50,056 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:50,995 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:52,322 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:52,567 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:53,305 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:53,754 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:54,345 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:55,027 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:55,158 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:56,075 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:01:56,346 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:01:57,320 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:01:57,474 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:01:58,789 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:01:59,222 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:00,290 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:00,395 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:01,541 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:01,778 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:02,563 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:03,473 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:03,834 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:04,735 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:05,069 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:05,563 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:06,129 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:06,781 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:07,187 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:08,183 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:08,329 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:09,443 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:09,666 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:10,665 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:11,643 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:11,909 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:12,677 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:12,726 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:14,009 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:14,175 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:15,286 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:16,244 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:16,385 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:17,414 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:17,479 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:18,311 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:18,743 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:19,372 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:19,924 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:20,166 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:20,971 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:21,451 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:22,857 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:23,854 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:23,949 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:24,954 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:24,978 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:25,813 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:26,356 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:26,883 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:27,574 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:28,244 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:28,959 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:29,175 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:30,437 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:30,446 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:31,466 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:31,708 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:32,537 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:33,031 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:33,483 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:34,280 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:34,731 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:35,678 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:36,183 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:36,571 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:37,460 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:38,133 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:38,738 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:39,618 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:39,925 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:40,994 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:41,430 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [pool-2-thread-1] 2016-01-27 10:02:41,889 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  no
+INFO  [Thread-6] 2016-01-27 10:02:42,306 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:42,889 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:43,345 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:43,901 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:44,118 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:45,064 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:45,484 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:46,195 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:47,266 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:47,624 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:48,813 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:49,090 repast.simphony.batch.ssh.LocalSession - AO=0.0 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:49,852 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:50,579 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:50,907 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:51,918 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:51,954 repast.simphony.batch.ssh.LocalSession - AO=0.01 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:52,944 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:54,274 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:55,205 repast.simphony.batch.ssh.LocalSession - AO=0.02 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [Thread-6] 2016-01-27 10:02:56,070 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=50-0-50-0
+INFO  [Thread-6] 2016-01-27 10:02:56,814 repast.simphony.batch.ssh.LocalSession - AO=0.05 TO=0.1 OptionDistrubution=0-50-0-50
+INFO  [Thread-6] 2016-01-27 10:02:57,618 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-50-0-0
+INFO  [Thread-6] 2016-01-27 10:02:58,685 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=50-0-0-50
+INFO  [Thread-6] 2016-01-27 10:02:59,410 repast.simphony.batch.ssh.LocalSession - AO=0.1 TO=0.1 OptionDistrubution=0-0-50-50
+INFO  [pool-2-thread-1] 2016-01-27 10:03:41,891 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-1] 2016-01-27 10:03:41,891 repast.simphony.batch.ssh.SessionsDriver - Run Time: 16.0102
+INFO  [SwingWorker-pool-1-thread-1] 2016-01-27 10:03:41,913 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in /var/folders/h8/7b73sc6902716_n5j75pgh140000gn/T/simphony_model_1453909657622
+INFO  [SwingWorker-pool-1-thread-1] 2016-01-27 10:03:41,925 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into /Users/BinChen/Documents/workspaceReapst2.31/AdhocCollaboration/output
+INFO  [SwingWorker-pool-1-thread-1] 2016-01-27 10:03:41,925 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0005
+INFO  [SwingWorker-pool-1-thread-1] 2016-01-27 10:03:41,925 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 16.0729
+FATAL [Thread-5] 2016-02-14 19:10:30,805 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.reflect.InvocationTargetException
+	at AdhocCollaboration.MainAgent$$FastClassByCGLIB$$4508beea.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.IndexOutOfBoundsException: Index: 3101, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at AdhocCollaboration.MainAgent.replaceTaskPoolNewTO(MainAgent.java:565)
+	at AdhocCollaboration.MainAgent.postNtasksNewTO(MainAgent.java:549)
+	at AdhocCollaboration.MainAgent.step(MainAgent.java:349)
+	... 10 more
+FATAL [Thread-6] 2016-02-14 19:17:49,025 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.reflect.InvocationTargetException
+	at AdhocCollaboration.MainAgent$$FastClassByCGLIB$$4508beea.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.IndexOutOfBoundsException: Index: 2709, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.remove(ArrayList.java:445)
+	at AdhocCollaboration.MainAgent.replaceTaskPoolNewTO(MainAgent.java:566)
+	at AdhocCollaboration.MainAgent.postNtasksNewTO(MainAgent.java:549)
+	at AdhocCollaboration.MainAgent.step(MainAgent.java:349)
+	... 10 more
+FATAL [Thread-5] 2016-02-14 19:23:42,089 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.reflect.InvocationTargetException
+	at AdhocCollaboration.MainAgent$$FastClassByCGLIB$$4508beea.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.IndexOutOfBoundsException: Index: 3879, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.remove(ArrayList.java:445)
+	at AdhocCollaboration.MainAgent.replaceTaskPoolNewTO(MainAgent.java:573)
+	at AdhocCollaboration.MainAgent.postNtasksNewTO(MainAgent.java:549)
+	at AdhocCollaboration.MainAgent.step(MainAgent.java:349)
+	... 10 more
+FATAL [Thread-5] 2016-02-14 19:46:44,424 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.reflect.InvocationTargetException
+	at AdhocCollaboration.MainAgent$$FastClassByCGLIB$$4508beea.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.IndexOutOfBoundsException: Index: 59, Size: 20
+	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
+	at java.util.ArrayList.get(ArrayList.java:382)
+	at AdhocCollaboration.MainAgent.replaceTaskPool(MainAgent.java:637)
+	at AdhocCollaboration.MainAgent.postNtasksNoSampling(MainAgent.java:526)
+	at AdhocCollaboration.MainAgent.step(MainAgent.java:347)
+	... 10 more
+ERROR [main] 2016-02-15 16:07:05,547 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.init(Boot.java:79)
+	at saf.core.runtime.Boot.main(Boot.java:246)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:9)
+	at AdhocCollaboration.UserMain.main(UserMain.java:14)
+ERROR [main] 2016-02-15 16:07:05,555 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.run(Boot.java:101)
+	at saf.core.runtime.Boot.main(Boot.java:247)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:9)
+	at AdhocCollaboration.UserMain.main(UserMain.java:14)
+ERROR [main] 2016-02-15 16:09:19,809 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.init(Boot.java:79)
+	at saf.core.runtime.Boot.main(Boot.java:246)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:9)
+	at AdhocCollaboration.UserMain.main(UserMain.java:14)
+ERROR [main] 2016-02-15 16:09:19,820 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.run(Boot.java:101)
+	at saf.core.runtime.Boot.main(Boot.java:247)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:9)
+	at AdhocCollaboration.UserMain.main(UserMain.java:14)
+ERROR [main] 2016-02-15 16:10:01,546 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.init(Boot.java:79)
+	at saf.core.runtime.Boot.main(Boot.java:246)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:9)
+	at AdhocCollaboration.UserMain.main(UserMain.java:14)
+ERROR [main] 2016-02-15 16:10:01,551 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.run(Boot.java:101)
+	at saf.core.runtime.Boot.main(Boot.java:247)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:9)
+	at AdhocCollaboration.UserMain.main(UserMain.java:14)
+ERROR [main] 2016-02-15 16:11:24,490 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.init(Boot.java:79)
+	at saf.core.runtime.Boot.main(Boot.java:246)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:10)
+	at AdhocCollaboration.UserMain.main(UserMain.java:15)
+ERROR [main] 2016-02-15 16:11:24,495 saf.core.runtime.Boot - null
+java.lang.NullPointerException
+	at saf.core.runtime.Boot.run(Boot.java:101)
+	at saf.core.runtime.Boot.main(Boot.java:247)
+	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
+	at AdhocCollaboration.UserMain.start(UserMain.java:10)
+	at AdhocCollaboration.UserMain.main(UserMain.java:15)

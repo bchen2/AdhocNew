@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="agent_count" displayName="Agent Count" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						
+		/>
+					
+		
+		
+		
+			<parameter name="total_tick" displayName="total tick (max=15504)" type="int" 
+			defaultValue="100" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter" 
+			
+			/>
+			<parameter name="initalCapNum" displayName="initalCapNum (max=20)" type="int" 
+			defaultValue="20" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter" 
+			
+			/>
+			<parameter name="option" displayName="Task Selection Option" type="int" 
+			defaultValue="14"
+			 isReadOnly="false"
+			  converter="repast.simphony.parameter.StringConverterFactory$IntConverter" 
+			/>
+	
+			<parameter name="optionTypeDistrubution" displayName="optionTypeDistrubution: Enter (op14-op15-op16-op17 percentage)" type="String" 
+						defaultValue="25-25-25-25" 
+						isReadOnly="false" 
+					
+									
+		
+			/>
+			
+			
+			
+			<parameter name="agent_openness" displayName="Agent Openness" type="double" 
+			defaultValue="0.1" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+			
+			 /><parameter name="agentOpennessOption" displayName="agentOpennessOption" type="int" 
+			 defaultValue="3" 
+			 isReadOnly="false" 
+			 converter="repast.simphony.parameter.StringConverterFactory$IntConverter" 
+			 
+			 
+			 /><parameter name="task_openness" displayName="Task Openness" type="double" 
+			 defaultValue="0.1" 
+			 isReadOnly="false" 
+			 converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" 
+			 
+			 /><parameter name="taskOpennessOption" displayName="taskOpennessOption" type="int" 
+			 defaultValue="3"
+			  isReadOnly="false" 
+			  converter="repast.simphony.parameter.StringConverterFactory$IntConverter" 
+			 />
+	
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="agent_types_scenario" displayName="Agent Types Scenario" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				
+	
+			<parameter name="NonKillAgentId1" displayName="Non Kill agentId 1 (Less than agent_count)" type="int" 
+						defaultValue="-1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+		
+				<parameter name="NonKillAgentId2" displayName="Non Kill agentId 2 (Less than agent_count)" type="int" 
+						defaultValue="-1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		
+			/>
+							<parameter name="NonKillAgentId3" displayName="Non Kill agentId 3 (Less than agent_count)" type="int" 
+						defaultValue="-1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		
+			/>
+
+		<parameter name="tickToFinish" displayName="tickToFinish" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		
+			/>
+			
+		<!-- 	Disable agentTypes function by entering an 0, this way agent will be randomly generated, we don't care about agent types. After kill, we also randomly entroduce an agent -->
+		<parameter name="UsingAgentDistrubution" displayName="UsingAgentDistrubution: 0-No(Agent will be radomly generated,No agentTypes) 1-Yes " type="int" 
+						defaultValue="0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+			/>	
+			
+
+		<parameter name="AgentDistrubution" displayName="AgentDistrubution: Enter (ExpPerAvgPer)" type="String" 
+						defaultValue="3333" 
+						isReadOnly="false" 
+					
+									
+		
+			/>
+			
+					<!-- 	Disable task Types function by entering an 0, this way all tasks are randomly generated, they are no task types, we use"config_typesRandom.properties" to draw all the tasks from-->
+		<parameter name="UsingTaskDistrubution" displayName="UsingTaskDistrubution: 0-No(task will be radomly generated,No taskTypes) 1-Yes " type="int" 
+						defaultValue="0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+			/>	
+
+<parameter name="TaskDistrubution" displayName="TaskDistrubution: Enter (HardPerAvgPer)" type="String" 
+						defaultValue="3333" 
+						isReadOnly="false" 
+					
+									
+		
+			/>
+
+
+		</parameters>
+
+
