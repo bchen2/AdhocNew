@@ -256,7 +256,7 @@ public class BlackboardMessage {
 	 * 
 	 */
 	public void printAssignment(){
-		print(String.format("Task %d assignment (Task type = %d", task.getId(),task.getType()));
+		print(String.format("Task %d assignment (Task type = %d  reward= %f" , task.getId(),task.getType(),task.getReward()));
 		print(this.subtaskAssignment);
 	}
 	

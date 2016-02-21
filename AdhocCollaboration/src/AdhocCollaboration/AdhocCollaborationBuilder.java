@@ -3,7 +3,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.HashMap;
+import java.util.Random;
 
+import cern.jet.random.Uniform;
 import repast.simphony.context.Context;
 import repast.simphony.context.DefaultContext;
 import repast.simphony.dataLoader.ContextBuilder;
@@ -60,6 +62,7 @@ public class AdhocCollaborationBuilder extends DefaultContext<Object> implements
 		
 		
 		int randomSeed = (Integer) params.getValue("randomSeed");
+	
 		
 		int agentType 			= 0; /* 1 - expert, 2 - average ,3-novice*/
 		double agentQualityMax 	= 1;
@@ -108,8 +111,11 @@ public class AdhocCollaborationBuilder extends DefaultContext<Object> implements
 		mainAgent.setContext(context);
 		mainAgent.setUsingAgentDistrubution(UsingAgentDistrubution);
 		mainAgent.setUsingTaskDistrubution(UsingTaskDistrubution);
-		MainAgent.randomSeed=randomSeed;
+//		Random random = new Random( randomSeed);
+		Uniform uniform= new Uniform(0.0,1.0, randomSeed); //the RNG for the environment 
+		mainAgent.setUniform(uniform);
 		context.add(mainAgent);
+		MainAgent.randomSeed= randomSeed;
 		
 		b.mainAgent=mainAgent;
 		
@@ -162,7 +168,7 @@ public class AdhocCollaborationBuilder extends DefaultContext<Object> implements
 				int op17count=0;
 				HashMap<String,Integer> optionCountMap = new HashMap<String,Integer>();
 				
-				optionTypeDistrubution=(String) params.getValue("optionTypeDistrubution");
+//				optionTypeDistrubution=(String) params.getValue("optionTypeDistrubution");
 				
 				if (optionTypeDistrubution!=null && optionTypeDistrubution!=""){
 					String token[]=optionTypeDistrubution.split("-");

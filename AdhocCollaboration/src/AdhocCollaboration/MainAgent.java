@@ -15,6 +15,7 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.Scanner;
 
+import cern.jet.random.Uniform;
 import repast.simphony.context.Context;
 import repast.simphony.engine.environment.RunEnvironment;
 import repast.simphony.engine.schedule.ScheduledMethod;
@@ -51,7 +52,8 @@ public class MainAgent {
 //	private int prevFinishedTasks;
 	private double agentOpenness;
 	private double agentQualityMax;
-	private Random random;
+	public static Uniform uniform;
+	public static int randomSeed;
 	private ArrayList<Agent> killingQueue;//put selected agents to the killingQueue and start kill them in the next tick. Agent is killed if they are not busy, if busy then try to kill in the tick 
 	private LinkedList<BlackboardMessage> returnedMessages;
 	private int lastAgentId;
@@ -169,7 +171,7 @@ public class MainAgent {
 	 public static FileWriter taskDetailWriter=null;
 	 public static FileWriter agentUsolveUlearnWriter=null;
 	 
-	 public static int randomSeed;
+	
 	 /**
 	  * contains the learning coefficient 
 	  */
@@ -179,7 +181,7 @@ public class MainAgent {
     /** Creates a new instance of Model 
      * @throws IOException */
     public MainAgent(Blackboard bb, double task_openness,int total_tick, int agent_count,int agent_types_scenario,double agent_openness,int initalCapNummber,String HardPercentageStr, String AveragePercentageStr) throws IOException {
-    	random = new Random();
+//    	random = new Random();
     	print(" Main agent is called");
     	initalCapNum=initalCapNummber;
     	lastTaskId 		= 0;
@@ -569,7 +571,7 @@ public class MainAgent {
     	ArrayList<Integer> tasksToRemove =new ArrayList<Integer>();
     	for (int task : tasksInPool){
     		//roll a dice to decide if replace or not
-    		double x=Math.random();
+    		double x=MainAgent.uniform.nextDoubleFromTo(0, 1.0);
     		if (x<=this.taskOpenness){//replace
     			
     			tasksToRemove.add(task);
@@ -582,9 +584,9 @@ public class MainAgent {
     		tasksInPool.remove(new Integer( t));
     		//add new task
     		// adding new ones into the pool
-    		int num = random.nextInt(totalNumOfTasks);  // from [0,15503]
+    		int num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);  // from [0,15503]
     		while (this.uniqueTaskInPool.contains(num)) {
-    			num = random.nextInt(totalNumOfTasks);
+    			num =  MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);
     		}
     		tasksInPool.add(num);
     		print("replaced task"+t+" in taskpool for a new task--"+num);
@@ -641,14 +643,15 @@ private void updatingTaskPostingInfoOnBlackboard(){
 
 			for (int i = 0; i < needReplaceRoundDown; i++) {
 				// remove from taskpool
-				int index = random.nextInt(100); // from [0,99]
+//				int index = random.nextInt(100); // from [0,99]
+				int index = MainAgent.uniform.nextIntFromTo(0, 99);
 				int replacedTask=tasksInPool.get(index);
 				tasksInPool.remove(index);
 
 				// adding new ones into the pool
-				int num = random.nextInt(totalNumOfTasks);  // from [0,15503]
+				int num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);  // from [0,15503]
 				while (this.uniqueTaskInPool.contains(num)) {
-					num = random.nextInt(totalNumOfTasks);
+					num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);
 				}
 				tasksInPool.add(num);
 				print("replaced task"+replacedTask+" in taskpool for a new task--"+num);
@@ -667,10 +670,11 @@ private void updatingTaskPostingInfoOnBlackboard(){
     	 */
     	this.tasksSampledPool.clear();
     	for (int i=0;i<this.sampledTasksSize;i++){
-    		int index = random.nextInt(100);//from [0,99]
+//    		int index = random.nextInt(100);//from [0,99]
+    		int index=MainAgent.uniform.nextIntFromTo(0,99);
     		int targetTask=tasksInPool.get(index);
     		while (this.tasksSampledPool.contains(targetTask)){
-    			 index = random.nextInt(100);//from [0,99]
+    			 index = MainAgent.uniform.nextIntFromTo(0,99);//from [0,99]
         		 targetTask=tasksInPool.get(index);
     		}
     		this.tasksSampledPool.add( targetTask);
@@ -1129,9 +1133,9 @@ private void actualPostingTasksInPool(){
 		// TODO Auto-generated method stub
     	// choose 100 numbers from[0,15503] to put into the pool, they are the index of the tasks in TaskList
     	for (int i = 0; i < taskPoolSize; i++) {
-			int num = random.nextInt(totalNumOfTasks);
+			int num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);
 			while (this.uniqueTaskInPool.contains(num)){
-				num = random.nextInt(totalNumOfTasks);
+				num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);
 			}
 			tasksInPool.add(num);
 			this.uniqueTaskInPool.add(num);
@@ -1153,9 +1157,10 @@ private void actualPostingTasksInPool(){
     private void InitializeTaskPoolNoSampling() {
     	// choose 100 numbers from[0,15503] to put into the pool, they are the index of the tasks in TaskList
     	for (int i = 0; i < taskPoolSize; i++) {
-			int num = random.nextInt(totalNumOfTasks);
+//			int num = random.nextInt(totalNumOfTasks);
+			int num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);
 			while (this.uniqueTaskInPool.contains(num)){
-				num = random.nextInt(totalNumOfTasks);
+				num = MainAgent.uniform.nextIntFromTo(0,totalNumOfTasks-1);
 			}
 			tasksInPool.add(num);
 			this.uniqueTaskInPool.add(num);
@@ -1377,14 +1382,17 @@ private void actualPostingTasksInPool(){
      */
 	private Agent getOneAgent(){
 		IndexedIterable<Agent> agents = context.getObjects(Agent.class);
-		int randomNum = random.nextInt(agents.size());
+//		int randomNum = random.nextInt(agents.size());
+		int randomNum = MainAgent.uniform.nextIntFromTo(0,agents.size()-1);
 	
 		//print("Do not Kill agents "+NonKillAgentId1+" "+NonKillAgentId2+" "+NonKillAgentId3 );
 		//do not choose agent which agent number is "NonKillAgentId1" to kill
 		int choosenAgentId=agents.get(randomNum).getId();
 		while (choosenAgentId==NonKillAgentId1 || choosenAgentId==NonKillAgentId2 ||choosenAgentId==NonKillAgentId3){
 			print("Do not Kill this agent !!!!!!!!!!!!!!!!!!!!!!!");
-			randomNum = random.nextInt(agents.size());
+//			randomNum = random.nextInt(agents.size());
+			randomNum = MainAgent.uniform.nextIntFromTo(0,agents.size()-1);
+			
 			choosenAgentId=agents.get(randomNum).getId();
 		}
 		
@@ -1669,6 +1677,14 @@ private void actualPostingTasksInPool(){
 
 	public void setUsingTaskDistrubution(int usingTaskDistrubution) {
 		UsingTaskDistrubution = usingTaskDistrubution;
+	}
+
+	public Uniform getUniform() {
+		return uniform;
+	}
+
+	public void setUniform(Uniform uniform) {
+		this.uniform = uniform;
 	}
 	
 	

@@ -268,7 +268,7 @@ public class Agent {
 		finishedSubtasks = 0;
 		maxQuality = agentQualityMax;
 		bb = b;
-		random = new Random();
+//		random = new Random();
 		taskToBeExcutedMessage = null;
 		subtaskToBeExecuted = new ArrayList<SubTask>();
 		blackList = new HashMap<Integer, HashMap<Integer, Integer>>();
@@ -284,7 +284,7 @@ public class Agent {
 									// learning gain and reward has not been
 									// calculated yet
 		for (int i = 0; i < 20; i++) {
-			qualityList.add(i, 0.0);
+			qualityList.add(i, MainAgent.uniform.nextDoubleFromTo(0.0, 1.0));
 		}
 
 		biddingFailRecordMap = new HashMap<Integer, Integer>();
@@ -326,13 +326,13 @@ public class Agent {
 					+ agentType.CheckType(agentQualityList) + "cap is "
 					+ qualityList);
 		} else {// generate random agents
-			for (int i = 0; i < initalCapNum; i++) {
-				int index = random.nextInt(20);
-				while (qualityList.get(index) > 0) {
-					index = random.nextInt(20);
-				}
-				qualityList.set(index, random.nextDouble() * maxQuality);
-			}
+//			for (int i = 0; i < initalCapNum; i++) {
+//				int index = random.nextInt(20);
+//				while (qualityList.get(index) > 0) {
+//					index = random.nextInt(20);
+//				}
+//				qualityList.set(index, random.nextDouble() * maxQuality);
+//			}
 			print("@@@@@@@@@@@@Agent " + agentId + " No Agent Type, OpType "
 					+ optionType + " cap is " + qualityList);
 		}
@@ -2182,7 +2182,8 @@ public class Agent {
 	 * if agent needs to leave, add itself into the killingQueue, then mainAgent can remove them and update the AgentList
 	 */
 	private void addToKillingQueue(){
-		double x=Math.random();
+//		double x=Math.random();
+		double x=MainAgent.uniform.nextDoubleFromTo(0.0, 1.0);
 		if (x<=this.bb.getAgentOpenness()){
 			this.bb.agentKillList.add(this);
 			print("agent "+this.agentId +" has been put into the agentKillList.");

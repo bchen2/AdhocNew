@@ -614,3 +614,31 @@ java.lang.NullPointerException
 	at repast.simphony.runtime.RepastMain.main(RepastMain.java:43)
 	at AdhocCollaboration.UserMain.start(UserMain.java:10)
 	at AdhocCollaboration.UserMain.main(UserMain.java:15)
+FATAL [Thread-5] 2016-02-21 15:58:18,792 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.reflect.InvocationTargetException
+	at AdhocCollaboration.MainAgent$$FastClassByCGLIB$$4508beea.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4045)
+	at java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2748)
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2702)
+	at java.util.Formatter.format(Formatter.java:2488)
+	at java.util.Formatter.format(Formatter.java:2423)
+	at java.lang.String.format(String.java:2797)
+	at AdhocCollaboration.BlackboardMessage.printAssignment(BlackboardMessage.java:259)
+	at AdhocCollaboration.Blackboard.auction(Blackboard.java:274)
+	at AdhocCollaboration.MainAgent.holdAuction(MainAgent.java:1294)
+	at AdhocCollaboration.MainAgent.step(MainAgent.java:369)
+	... 10 more
