@@ -1,8 +1,8 @@
 package AdhocCollaboration;
 
 public class PrintClass {
-	static boolean DebugMode=true;
-//	static boolean DebugMode=false;
+//	static boolean DebugMode=true;
+	static boolean DebugMode=false;
 	static boolean printClass=true;
 	
 	

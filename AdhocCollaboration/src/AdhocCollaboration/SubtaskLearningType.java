@@ -12,14 +12,14 @@ public class SubtaskLearningType {
 	double alphaSvalue[] = { 0.2, 0.2, 0.4, 0.3, 0.3, 0.3, 0.1, 0.4, 0.3, 0.3,
 			0.4, 0.2, 0.1, 0.1, 0.1, 0.2, 0.4, 0.3, 0.3, 0.4 };
 	/*
-	 * alphaS is the ObervitionalLearning coefficient
+	 * alphaO is the ObervitionalLearning coefficient
 	 */
 	HashMap<Integer, Integer> alphaO = new HashMap<Integer, Integer>();
 	// value=[1,2,3,4]
 	int alphaOvalue[] = { 2, 4, 1, 2, 2, 1, 4, 3, 1, 3, 3, 4, 2, 3, 2, 3, 4, 2,
 			4, 1 };
 
-	double delta = 0.2;// max obervation gain
+	double delta = 0.2;// if cap diff < delta, then does not get observe gain
 
 	public SubtaskLearningType() {
 		/**
@@ -32,7 +32,8 @@ public class SubtaskLearningType {
 		// 10=0.3, 11=0.4, 12=0.2, 13=0.1, 14=0.1, 15=0.1, 17=0.2, 16=0.4,
 		// 19=0.3, 18=0.3, 20=0.4}
 
-
+		int multiplyer1=3;
+		int multiplyer2=15;
 		
 		for (int i = 1; i <= 20; i++) {
 			alphaS.put(i, alphaSvalue[i-1]);

@@ -117,8 +117,8 @@ public class Agent {
 										// finishes
 	private int TaskTobidAtOneTick = 0;// records the task that the agent bid at
 										// that tick, if agent did not bid, then
-										// it will be 0;
-	private int TaskTypebidAtOneTick = 0;
+										// it will be -1;
+	private int TaskTypebidAtOneTick = 0;//if not bid, then -1;
 	private int NumberOfAvailableTasksAtOneTick;// reords number of Available
 												// Tasks at this tick when agent
 												// check the blackboard to check
@@ -388,7 +388,9 @@ public class Agent {
 		this.setRewardAtCurrentTick(0);
 		// this.setNumAgentsRequired(0);
 		// this.setNumAgentsAssigned(0);
-		// this.setTaskReward(0);
+		 this.setTaskReward(0);
+		 TaskTypebidAtOneTick=0;
+		this.taskReward=0;
 
 		setSelfGainAtOneTick(0);
 		setObservationGainAtOneTick(0);
@@ -427,98 +429,98 @@ public class Agent {
 	// watcheeFieldNames = "newMsg",//when main agent post a task, will set this
 	// to be true
 	// whenToTrigger = WatcherTriggerSchedule.IMMEDIATE)
-	public void run() {
-		this.TaskIdForLearningGain = 0;
-		this.TaskLearningGain = 0;
-		setSelectedForCurrentBid(false);
-		this.setRewardAtCurrentTick(0);
-		// this.setNumAgentsRequired(0);
-		// this.setNumAgentsAssigned(0);
-		// this.setTaskReward(0);
-
-		setSelfGainAtOneTick(0);
-		setObservationGainAtOneTick(0);
-
-		if (option == 13) {
-			// we set these values to be 0, if agent has a task when
-			// readAssignment(), or evaluated task when selectTask(), then these
-			// value will be changed, then at the end of the tick, f,g will be
-			// updated
-			this.qualThreshAbove = 0;
-			this.numSubtaskEvaluated = 0;// reset these to to 0, if agent is
-											// busy and did not select task, we
-											// know it from this 0 value and
-											// updatef() can simply record an 0.
-			this.numAgentsAssigned = 0;
-			this.numAgentsRequired = 0;
-			this.bidsSubmitted = 0;
-			this.RejectA = 0;
-			this.bidsSubmittedAndWon = 0;
-			this.RejectB = 0;
-			this.index = MainAgent.tick % this.Delta;
-		}
-
-		if (subtaskToBeExecuted.size() > 0) {
-
-			this.numSubtasksAssignedAtOneTick = 0;
-			this.TaskTobidAtOneTick = 0;
-			this.TaskTypebidAtOneTick = 0;
-			this.NumberOfAvailableTasksAtOneTick = -1;// agent is excecting
-														// task, set this to be
-														// -1;
-			bb.addNumAgentHasResponsed();
-			executeSubtasks();
-			isBusy = false;
-
-			// this.outputToFile();
-
-			/**
-			 * check finished tasks and update rewards and learning gain
-			 */
-			if (temporaryMessage != null) {// check last tick finished task to
-											// calculate learning gain
-
-				// this.isBusy=false;
-				checkFinishedMessage();// this checks if the task is failed or
-										// not and calls updateCapbilities
-			} else {
-				/* no finished task, do not need to update capbilites */
-
-			}
-
-		} else {
-			// if (option==13){
-			// //update g here before it start selecting tasks, so it can use
-			// the new g.
-			//
-			// updateg();
-			// }
-			selectTask();
-			bb.addNumAgentHasResponsed();// when all agent has Responded, then
-											// it triggers the auction to start
-		}
-
-		// after selectTask(), the auction results is ready, hence update the
-		// following prameters
-		if (option == 13) {
-			// update these value, so agent can use it for selectTask for next
-			// tick
-			updatef();
-			updateg();
-			updateF_RA();
-			updateF_RB();
-		}
-
-		// this.outputToFile();
-
-	}
+//	public void run() {
+//		this.TaskIdForLearningGain = 0;
+//		this.TaskLearningGain = 0;
+//		setSelectedForCurrentBid(false);
+//		this.setRewardAtCurrentTick(0);
+//		// this.setNumAgentsRequired(0);
+//		// this.setNumAgentsAssigned(0);
+//		// this.setTaskReward(0);
+//
+//		setSelfGainAtOneTick(0);
+//		setObservationGainAtOneTick(0);
+//
+//		if (option == 13) {
+//			// we set these values to be 0, if agent has a task when
+//			// readAssignment(), or evaluated task when selectTask(), then these
+//			// value will be changed, then at the end of the tick, f,g will be
+//			// updated
+//			this.qualThreshAbove = 0;
+//			this.numSubtaskEvaluated = 0;// reset these to to 0, if agent is
+//											// busy and did not select task, we
+//											// know it from this 0 value and
+//											// updatef() can simply record an 0.
+//			this.numAgentsAssigned = 0;
+//			this.numAgentsRequired = 0;
+//			this.bidsSubmitted = 0;
+//			this.RejectA = 0;
+//			this.bidsSubmittedAndWon = 0;
+//			this.RejectB = 0;
+//			this.index = MainAgent.tick % this.Delta;
+//		}
+//
+//		if (subtaskToBeExecuted.size() > 0) {
+//
+//			this.numSubtasksAssignedAtOneTick = 0;
+//			this.TaskTobidAtOneTick = 0;
+//			this.TaskTypebidAtOneTick = 0;
+//			this.NumberOfAvailableTasksAtOneTick = -1;// agent is excecting
+//														// task, set this to be
+//														// -1;
+//			bb.addNumAgentHasResponsed();
+//			executeSubtasks();
+//			isBusy = false;
+//
+//			// this.outputToFile();
+//
+//			/**
+//			 * check finished tasks and update rewards and learning gain
+//			 */
+//			if (temporaryMessage != null) {// check last tick finished task to
+//											// calculate learning gain
+//
+//				// this.isBusy=false;
+//				checkFinishedMessage();// this checks if the task is failed or
+//										// not and calls updateCapbilities
+//			} else {
+//				/* no finished task, do not need to update capbilites */
+//
+//			}
+//
+//		} else {
+//			// if (option==13){
+//			// //update g here before it start selecting tasks, so it can use
+//			// the new g.
+//			//
+//			// updateg();
+//			// }
+//			selectTask();
+//			bb.addNumAgentHasResponsed();// when all agent has Responded, then
+//											// it triggers the auction to start
+//		}
+//
+//		// after selectTask(), the auction results is ready, hence update the
+//		// following prameters
+//		if (option == 13) {
+//			// update these value, so agent can use it for selectTask for next
+//			// tick
+//			updatef();
+//			updateg();
+//			updateF_RA();
+//			updateF_RB();
+//		}
+//
+//		// this.outputToFile();
+//
+//	}
 
 	public void agentExecuteSubtasks_updateCap_leave() {
 		if (subtaskToBeExecuted.size() > 0) {
 
-			this.numSubtasksAssignedAtOneTick = 0;
-			this.TaskTobidAtOneTick = 0;
-			this.TaskTypebidAtOneTick = 0;
+//			this.numSubtasksAssignedAtOneTick = 0;
+//			this.TaskTobidAtOneTick = 0;
+//			this.TaskTypebidAtOneTick = 0;
 //			this.NumberOfAvailableTasksAtOneTick = -1;// agent is excecting
 														// task, set this to be
 														// -1;
@@ -561,7 +563,7 @@ public class Agent {
 	
 		this.outputToFile();
 		
-		
+				
 		
 	}
 
@@ -672,6 +674,8 @@ public class Agent {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			
+			
 		}
 
 	}
@@ -938,8 +942,8 @@ public class Agent {
 		// print("Agent "+agentId+" maxPotential = "+maxPotentialUtility);
 			print(String.format("Agent %d bids for No task", agentId));
 			// print("Agent "+agentId+" capDiff for the last task = "+this.capDiff+"\n");
-			this.TaskTobidAtOneTick = 0;
-			this.TaskTypebidAtOneTick = 0;
+			this.TaskTobidAtOneTick = -1;
+			this.TaskTypebidAtOneTick = -1;
 			this.bidsSubmitted = 0;
 
 		}
@@ -1458,12 +1462,16 @@ public class Agent {
 
 		double EU_solve = findEU_solve2(bm);// done
 		double EU_doing = findEU_doing1(bm);// done
-		double EU_observe = findEU_observe1(bm);// done
+		double EU_observe = findEU_observeAll(bm);// done
 		// double EU_learn=0.5*EU_doing+0.5*EU_observe;
 		double EU_learn = EU_doing + EU_observe;// do not use the 0.5
 
 		outputAgentUsolveUlearnToFile(EU_learn, EU_solve, bm.getTask().getId(),
 				bm.getTask().getType());
+		
+		
+		outputAgentBiddingDetail(MainAgent.tick,this.agentId,
+				bm.getTask().getId(),EU_solve,EU_doing,EU_observe);
 
 		ArrayList<BlackboardMessage> K_NeighborList = find_K_Neighbor(bm);
 
@@ -1510,7 +1518,16 @@ public class Agent {
 		// 2.
 		// EU=P_wb(T) * P_off(T)*(1-P_failure(T))*(EU_learn+EU_solve)
 
+		
+		
 		double EU = P_wb * P_off * 1 * (EU_solve + EU_learn);
+		
+		
+		//TODO
+//		double EU = P_wb * P_off * 1 * (EU_solve + EU_doing);
+		
+		
+		
 		print("==========Agent " + this.agentId + "=============");
 		print("P_wb=" + P_wb + "  P_off=" + P_off);
 		print("EU_doing=" + EU_doing + "        EU_observe=" + EU_observe);
@@ -1519,6 +1536,20 @@ public class Agent {
 
 		return EU;
 
+	}
+
+	private void outputAgentBiddingDetail(int tick,int agentId,int id, double eU_solve,
+			double eU_doing, double eU_observe) {
+		if (OutputClass.biddingDetail && this.bb.getOption()==14){
+		try {
+			
+			double eU_learning=eU_doing+eU_observe;
+			double eU_total=eU_solve+eU_learning;
+			MainAgent.agentBiddingDetailWriter.write(tick+","+agentId+","+id+","+eU_solve+","+eU_learning+","+eU_total+","+eU_doing+","+eU_observe+"\n");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		}
 	}
 
 	/**
@@ -1537,14 +1568,17 @@ public class Agent {
 	private double ComputePotentialUtilityStrategy11(BlackboardMessage bm) {
 		double EU_solve = findEU_solve2(bm);// done
 		double EU_doing = findEU_doing1(bm);// done
-		double EU_observe = findEU_observe1(bm);// done
+		double EU_observe = findEU_observeAll(bm);// done
 		// double EU_learn=0.5*EU_doing+0.5*EU_observe;
 		double EU_learn = EU_doing + EU_observe;// do not use the 0.5
 
 		// outputAgentUsolveUlearnToFile(EU_learn,EU_solve,bm.getTask().getId(),
 		// bm.getTask().getType());
 
+		
+		//TODO
 		return EU_solve + EU_learn;
+//		return EU_solve + EU_doing;
 	}
 
 	/**
@@ -1759,6 +1793,56 @@ public class Agent {
 		return EU_observe;
 
 	}
+	
+	
+	/**
+	 * in agent reasoning, agent observe ALL the subtask 
+     * 
+	 * @param bm
+	 * @return
+	 */
+	private double findEU_observeAll(BlackboardMessage bm) {
+
+		double EU_observe = 0.0;
+		for (SubTask subtask : bm.getSubtasks()) {
+			int capId = subtask.getId();
+			double alphaO = MainAgent.subtaskLearningType.alphaO.get(capId);
+			double diff = subtask.getQuality()
+					- this.getCapabilityQuality(capId);
+			double delta = MainAgent.subtaskLearningType.delta;
+			double gain;
+
+			// System.out.println("Agent"+this.agentId+ "subtask"+capId +
+			// "alphaObserve="+alphaO);
+
+			if (diff <= 0 || diff >= delta) {
+				gain = 0;
+			} else {
+				gain = alphaO * diff * (delta - diff);
+				// apply the probability
+				gain = (1 - diff) * gain;
+			}
+			
+			if (gain>0){
+				double updatedQuality = getCapabilityQuality(capId)
+						+ gain;
+				if (updatedQuality > 1) {
+					updatedQuality = 1;
+					gain= 1 - getCapabilityQuality(capId);
+				}
+				
+				EU_observe +=gain;
+			}
+		
+
+		}
+
+		return EU_observe;
+
+	}
+	
+	
+	
 
 	/**
 	 * in agent reasoning, agent only observe the subtask that gives the max
@@ -2169,10 +2253,14 @@ public class Agent {
 			taskToBidMessage = null;
 			messageToRecord = null;
 		} else {// agent did not bid
-			this.taskAssignmentAtOneTick = 0;// no task assignment at this tick
-			this.numSubtasksAssignedAtOneTick = 0;
-			this.numAgentsRequired = 0;
-			this.numAgentsAssigned = 0;
+			this.taskAssignmentAtOneTick = -1;// no task assignment at this tick
+			this.numSubtasksAssignedAtOneTick = -1;
+			this.numAgentsRequired = -1;
+			this.numAgentsAssigned = -1;
+			this.TaskTypebidAtOneTick=-1;
+			this.taskReward=-1;
+			this.TaskTypebidAtOneTick=-1;
+			this.rewardAtCurrentTick=-1;
 			isBusy = false;
 		}
 
@@ -2453,7 +2541,8 @@ public class Agent {
 			this.bb.updateLearnedCap(maxGain);// record learned quality
 			this.updateIndividualLearnedCap(maxGain);// record individual
 														// learned quality
-			this.setObservationGainAtOneTick(maxGain);
+//			this.setObservationGainAtOneTick(maxGain);
+			this.addToObservationGainAtOneTick(maxGain);
 			this.TaskLearningGain = TaskLearningGain + maxGain;
 
 			print(String
@@ -2548,31 +2637,31 @@ public class Agent {
 		temporaryMessage = null;
 	}
 
-	private void updateReward() {
-		Task task = temporaryMessage.getTask();
-		// ArrayList<SubTask> subtaskAll = new
-		// ArrayList<SubTask>(task.getSubtasks());
-
-		double sum1 = 0; // this sum1 calculates summation of the qualThresh_t
-							// for all t that agents get assigned
-		// get subtasks that agent assigned to
-		for (SubTask subtask : temporaryMessage
-				.getSubtasksAssignmentByAgent(agentId)) {
-			// double QualDiff=qualityList.get(subtask.getId()-1) -
-			// subtask.getQuality();
-			sum1 += subtask.getQuality();
-		}
-
-		double rewardForThisTask = (sum1 * task.getReward())
-				/ temporaryMessage.getSum2();
-		// add the reward to the total cumative reward
-		this.reward += rewardForThisTask;
-		this.rewardAtCurrentTick = rewardForThisTask;
-		bb.updateTotalReward(rewardForThisTask);
-		print("!!!!!!!!!!!!!!!!!Agent " + this.agentId + " get "
-				+ rewardForThisTask + " reward for complete Task "
-				+ task.getId() + "(type " + task.getType() + ")");
-	}
+//	private void updateReward() {
+//		Task task = temporaryMessage.getTask();
+//		// ArrayList<SubTask> subtaskAll = new
+//		// ArrayList<SubTask>(task.getSubtasks());
+//
+//		double sum1 = 0; // this sum1 calculates summation of the qualThresh_t
+//							// for all t that agents get assigned
+//		// get subtasks that agent assigned to
+//		for (SubTask subtask : temporaryMessage
+//				.getSubtasksAssignmentByAgent(agentId)) {
+//			// double QualDiff=qualityList.get(subtask.getId()-1) -
+//			// subtask.getQuality();
+//			sum1 += subtask.getQuality();
+//		}
+//
+//		double rewardForThisTask = (sum1 * task.getReward())
+//				/ temporaryMessage.getSum2();
+//		// add the reward to the total cumative reward
+//		this.reward += rewardForThisTask;
+//		this.rewardAtCurrentTick = rewardForThisTask;
+//		bb.updateTotalReward(rewardForThisTask);
+//		print("!!!!!!!!!!!!!!!!!Agent " + this.agentId + " get "
+//				+ rewardForThisTask + " reward for complete Task "
+//				+ task.getId() + "(type " + task.getType() + ")");
+//	}
 
 	/**
 	 * updated this reward function on 1/13/2016
@@ -2645,7 +2734,7 @@ public class Agent {
 			this.bb.updateLearnedCap(selfGain);// record learned quality
 			this.updateIndividualLearnedCap(selfGain);// record individual
 														// learned quality
-			this.setSelfGainAtOneTick(selfGain);
+			this.addToSelfGainAtOneTick(selfGain);
 			this.TaskLearningGain = TaskLearningGain + selfGain;
 
 			print(String
@@ -2663,10 +2752,77 @@ public class Agent {
 										// observing
 		}
 
-		// Calculate learning by observation gain, agent only observe the
-		// subtask that gives the max observationGain
-		double maxObservationGain = -1;
-		int maxObservingSubtaskId = 0;
+		
+		
+		/**
+		 *  Calculate learning by observation gain, agent only observe the
+		 *subtask that gives the max observationGain
+		 */
+		
+//		double maxObservationGain = -1;
+//		int maxObservingSubtaskId = 0;
+//		for (SubTask observingSubtask : subtaskAll) {
+//			int capId = observingSubtask.getId();
+//
+//			double alphaO = MainAgent.subtaskLearningType.alphaO.get(capId);
+//			double diff = observingSubtask.getQuality()
+//					- this.getCapabilityQuality(capId);
+//			double delta = MainAgent.subtaskLearningType.delta;
+//			double gain;
+//
+//			// System.out.println("Agent"+this.agentId+ "subtask"+capId +
+//			// "alphaObserve="+alphaO);
+//
+//			if (diff <= 0 || diff >= delta) {
+//				gain = 0;
+//			} else {
+//				gain = alphaO * diff * (delta - diff);
+//			}
+//
+//			if (gain > maxObservationGain) {
+//				maxObservationGain = gain;
+//				maxObservingSubtaskId = capId;
+//			}
+//
+//		}
+//
+//		if (maxObservationGain > 0) {
+//			double gain = maxObservationGain;
+//
+//			double updatedQuality = getCapabilityQuality(maxObservingSubtaskId)
+//					+ gain;
+//			if (updatedQuality > 1) {
+//				updatedQuality = 1;
+//				gain = 1 - getCapabilityQuality(maxObservingSubtaskId);
+//			}
+//			if (gain > 0) {
+//				this.ObservedSubtaskSet.add(maxObservingSubtaskId);
+//			}
+//
+//			this.bb.updateLearnedCap(gain);// record learned quality
+//			this.updateIndividualLearnedCap(gain);// record individual learned
+//													// quality
+////			this.setObservationGainAtOneTick(gain);
+//			this.addToObservationGainAtOneTick(gain);
+//			this.TaskLearningGain = TaskLearningGain + gain;
+//
+//			// System.out.println(String.format("Agent %d gain learning %.4f utility by observating,	%.4f---> %.4f ",
+//			// agentId, gain, getCapabilityQuality(observingSubtask.getId()),
+//			// updatedQuality));
+//
+//			print(String
+//					.format("Agent %d gain learning %.4f utility by observating,	%.4f---> %.4f ",
+//							agentId, gain,
+//							getCapabilityQuality(maxObservingSubtaskId),
+//							updatedQuality));
+//			this.setCapabilityQuality(maxObservingSubtaskId, updatedQuality);
+//
+//		}
+
+		
+		/**
+		 * learning from observation learning from every subtasks that it obsered
+		 */
 		for (SubTask observingSubtask : subtaskAll) {
 			int capId = observingSubtask.getId();
 
@@ -2685,45 +2841,43 @@ public class Agent {
 				gain = alphaO * diff * (delta - diff);
 			}
 
-			if (gain > maxObservationGain) {
-				maxObservationGain = gain;
-				maxObservingSubtaskId = capId;
-			}
-
-		}
-
-		if (maxObservationGain > 0) {
-			double gain = maxObservationGain;
-
-			double updatedQuality = getCapabilityQuality(maxObservingSubtaskId)
-					+ gain;
-			if (updatedQuality > 1) {
-				updatedQuality = 1;
-				gain = 1 - getCapabilityQuality(maxObservingSubtaskId);
-			}
+		
 			if (gain > 0) {
-				this.ObservedSubtaskSet.add(maxObservingSubtaskId);
-			}
 
-			this.bb.updateLearnedCap(gain);// record learned quality
-			this.updateIndividualLearnedCap(gain);// record individual learned
-													// quality
-			this.setObservationGainAtOneTick(gain);
-			this.TaskLearningGain = TaskLearningGain + gain;
+				double updatedQuality = getCapabilityQuality(capId)
+						+ gain;
+				if (updatedQuality > 1) {
+					updatedQuality = 1;
+					gain = 1 - getCapabilityQuality(capId);
+				}
+				if (gain > 0) {
+					this.ObservedSubtaskSet.add(capId);
+				}
 
-			// System.out.println(String.format("Agent %d gain learning %.4f utility by observating,	%.4f---> %.4f ",
-			// agentId, gain, getCapabilityQuality(observingSubtask.getId()),
-			// updatedQuality));
+				this.bb.updateLearnedCap(gain);// record learned quality
+				this.updateIndividualLearnedCap(gain);// record individual learned
+														// quality
+//				this.setObservationGainAtOneTick(gain);
+				this.addToObservationGainAtOneTick(gain);
+				this.TaskLearningGain = TaskLearningGain + gain;
+				// System.out.println(String.format("Agent %d gain learning %.4f utility by observating,	%.4f---> %.4f ",
+				// agentId, gain, getCapabilityQuality(observingSubtask.getId()),
+				// updatedQuality));
 
-			print(String
-					.format("Agent %d gain learning %.4f utility by observating,	%.4f---> %.4f ",
-							agentId, gain,
-							getCapabilityQuality(maxObservingSubtaskId),
-							updatedQuality));
-			this.setCapabilityQuality(maxObservingSubtaskId, updatedQuality);
-
+				print(String
+						.format("Agent %d gain learning %.4f utility by observating,	%.4f---> %.4f ",
+								agentId, gain,
+								getCapabilityQuality(capId),
+								updatedQuality));
+				this.setCapabilityQuality(capId, updatedQuality);
 		}
 
+		
+
+	
+
+		}
+		
 		this.TaskIdForLearningGain = task.getType();
 		print("~~~~~~~~~" + this.agentId + "    " + this.TaskIdForLearningGain);
 		temporaryMessage = null;
@@ -3402,12 +3556,20 @@ public class Agent {
 		this.selfGainAtOneTick = selfGainAtOneTick;
 	}
 
+	public void addToSelfGainAtOneTick(double selfGainAtOneTick) {
+		this.selfGainAtOneTick += selfGainAtOneTick;
+	}
+	
 	public double getObservationGainAtOneTick() {
 		return observationGainAtOneTick;
 	}
 
 	public void setObservationGainAtOneTick(double observationGainAtOneTick) {
 		this.observationGainAtOneTick = observationGainAtOneTick;
+	}
+	
+	public void addToObservationGainAtOneTick(double observationGainAtOneTick) {
+		this.observationGainAtOneTick += observationGainAtOneTick;
 	}
 
 	public String getAgentOutputWithCap() {

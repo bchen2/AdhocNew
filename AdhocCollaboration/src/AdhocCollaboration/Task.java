@@ -46,7 +46,9 @@ public class Task {
 		random 			= new Random();
 		tickToFinish = (Integer) params.getValue ("tickToFinish");;//change ticks to finish a task, only change it here
 //		reward=1 + (int)(Math.random() * ((100 - 1) + 1));//get a random number between 1 to 100;
-		reward=MainAgent.uniform.nextIntFromTo(1, 100);//get a random number between 1 to 100;
+//		reward=MainAgent.uniform.nextIntFromTo(1, 100);//get a random number between 1 to 100;
+		reward=MainAgent.uniform.nextDoubleFromTo(0, 1.0);//get a random number between (0,1);
+//		reward=MainAgent.uniform.nextIntFromTo(5, 10);//get a random number between 1 to 100;
 				
 				/*
 				 * Notice for the use of Math.random

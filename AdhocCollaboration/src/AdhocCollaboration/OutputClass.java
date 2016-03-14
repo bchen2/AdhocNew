@@ -16,8 +16,14 @@ public class OutputClass {
 	
 	static boolean agentUsolveUlearn=false;
 	
+	
+//	static boolean biddingDetail=true;
+	static boolean biddingDetail=false;
+	
 //	static String direcotry="/Volumes/My Passport for Mac/result10";//distrubution
-	static String direcotry="/Users/BinChen/Desktop/test2";
+//	static String direcotry="/Users/BinChen/Desktop/test4";
 //	static String direcotry="/Volumes/My Passport for Mac/result6";//contains option17
 //	static String direcotry="/Volumes/My Passport for Mac/25-25-25-25";//contains option17 1/13/2016
+//	static String direcotry="/Volumes/My Passport for Mac/newTest2";//contains option17, 10 times obs
+	static String direcotry="/Users/BinChen/Desktop/test5";
 }

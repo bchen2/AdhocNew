@@ -167,6 +167,7 @@ public class MainAgent {
 	
 	 public static FileWriter writer=null;
 	 public static FileWriter writer1=null;
+	 public static FileWriter agentBiddingDetailWriter=null;
 	 public static FileWriter agentCapWriter=null;
 	 public static FileWriter taskDetailWriter=null;
 	 public static FileWriter agentUsolveUlearnWriter=null;
@@ -275,10 +276,28 @@ public class MainAgent {
     			
     		
     		MainAgent.writer = new FileWriter(AgentOutput);
-    		writer.write("tick,Id,NumTaskInvolved,TaskAssignmentAtOneTick,Reward,TaskTobidAtOneTick,NumBidsSubmitted,NumbidsSubmittedAndWon,SelectedForCurrentBid,"
-    				+ "run,TaskTypebidAtOneTick,random_seed,AgentOpenness,TaskOpenness,Option,NumAgentsAssigned,NumAgentsRequired,"
-    				+ "RewardAtCurrentTick,NumSubtasksAssignedAtOneTick,TaskReward,SelfGainAtOneTick,ObservationGainAtOneTick,"
-    				+ "ObservedCapUsedCount,ObervatedCapUsedAtOneTick,OptionType\n");
+    		if (!OutputClass.biddingDetail){
+    			writer.write("tick,Id,NumTaskInvolved,TaskAssignmentAtOneTick,Reward,TaskTobidAtOneTick,NumBidsSubmitted,NumbidsSubmittedAndWon,SelectedForCurrentBid,"
+        				+ "run,TaskTypebidAtOneTick,random_seed,AgentOpenness,TaskOpenness,Option,NumAgentsAssigned,NumAgentsRequired,"
+        				+ "RewardAtCurrentTick,NumSubtasksAssignedAtOneTick,TaskReward,SelfGainAtOneTick,ObservationGainAtOneTick,"
+        				+ "ObservedCapUsedCount,ObervatedCapUsedAtOneTick,OptionType\n");
+    		}else{
+    			writer.write("tick,Id,NumTaskInvolved,TaskAssignmentAtOneTick,Reward,TaskTobidAtOneTick,NumBidsSubmitted,NumbidsSubmittedAndWon,SelectedForCurrentBid,"
+        				+ "run,TaskTypebidAtOneTick,random_seed,AgentOpenness,TaskOpenness,Option,NumAgentsAssigned,NumAgentsRequired,"
+        				+ "RewardAtCurrentTick,NumSubtasksAssignedAtOneTick,TaskReward,SelfGainAtOneTick,ObservationGainAtOneTick,"
+        				+ "ObservedCapUsedCount,ObervatedCapUsedAtOneTick,OptionType,TaskIdEvla,EU_sol,EU_Ldo,EU_Lobs\n");
+    		}
+    		
+    	}
+    	
+    	/*
+    	 * only look at option 14's bidding detail
+    	 */
+    	if (OutputClass.biddingDetail && this.blackboard.getOption()==14){
+    		File BiddingDetail;
+    		BiddingDetail=new File(OutputClass.direcotry+"/AgentOutput_AO"+this.agentOpenness+"TO"+this.taskOpenness+"Op"+this.blackboard.getOption()+"_"+Blackboard.getCurrentTimeStamp()+"_Bidding.txt");
+    		MainAgent.agentBiddingDetailWriter=new FileWriter(BiddingDetail);
+    		MainAgent.agentBiddingDetailWriter.write("tick,Id,TaskIdEvla,EU_sol,EU_learn,EU_Total,EU_Ldo,EU_Lobs\n");
     	}
     	
     	
@@ -429,7 +448,15 @@ public class MainAgent {
         	
     	}
       	else{
+      		
+      		
+      		
         	print("~~~~~~~~~ Current tick is "+tick);
+        	
+        	
+        		
+        
+        	
         	print("!!!!!!!!!!!!!!!!!!!!!!!!!!!END");
     		if (this.blackboard.getOption()==99){
     			System.out.println("AO="+this.agentOpenness+" TO="+this.taskOpenness+" OptionDistrubution="+this.blackboard.getOptionTypeDistrubution());
@@ -445,7 +472,16 @@ public class MainAgent {
     		
     		
     		
-    		
+    		/**
+    		 * close writer for agent output
+    		 */
+    		try {
+				MainAgent.writer.close();
+//				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
    
     		
     		
@@ -458,13 +494,13 @@ public class MainAgent {
          		/**
         		 * close writer for agent output
         		 */
-        		try {
-    				MainAgent.writer.close();
-//    				
-    			} catch (IOException e) {
-    				// TODO Auto-generated catch block
-    				e.printStackTrace();
-    			}
+//        		try {
+//    				MainAgent.writer.close();
+////    				
+//    			} catch (IOException e) {
+//    				// TODO Auto-generated catch block
+//    				e.printStackTrace();
+//    			}
         		
         		if (OutputClass.agentCap){
         			MainAgent.agentCapWriter.close();
@@ -485,8 +521,8 @@ public class MainAgent {
     		}
     		
 			RunEnvironment.getInstance().endRun();
-			
-      	}
+        	}
+      	
     	print("go to next round!");
     }
     
@@ -844,8 +880,11 @@ private void actualPostingTasksInPool(){
 			String task_type = Integer.toString(j+1); 	//[1,10054] fetch in config file for task type
 
 //        	String num_subtasks = configFile.getProperty("Num_Subtasks"+task_type);
-        	String subtasks  = configFile.getProperty("Subtasks"+task_type);	
+        	String subtasks  = configFile.getProperty("Subtasks"+task_type);
+        	
         	String Num_Agents = configFile.getProperty("Num_Agents"+task_type);
+//        	String Num_Agents = "1,1,1,1,1";
+        	
         	String Quality = configFile.getProperty("Quality"+task_type);  	       	
         	//print("s="+num_subtasks+" g="+subtasks);
         	
